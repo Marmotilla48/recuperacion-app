@@ -1,0 +1,29 @@
+h1#titulo{
+    color: orange;
+    text-align: center;
+}
+
+p.alicante{
+    position: relative;
+    margin-left: 12%;
+}
+
+p.valencia{
+    position: relative;
+    margin-left: 35%;
+}
+
+p.castellon{
+    position: relative;
+    margin-left: 60%;
+}
+
+p.parrafop2{
+    color: blue;
+}
+
+p.pie{
+    color: blue;
+    text-align: center;
+    background-color: white;
+}

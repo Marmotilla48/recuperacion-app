@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function funcion_si(){
+            var ciudad = document.getElementById("ciudad").value;
+            alert ('has elegido la ciudad de'+' '+ ciudad)
+        }
+    </script>
+</head>
+
+
+<body style="background-color: lightskyblue;">
+   <hr>
+    <h1 id="titulo">
+        <a href="index.html">Comunidad valenciana</a>
+            </h1>
+            <hr>
+            <div style="background-color: white;">
+                <p class="parrafop2">
+                    Introduce la ciudad nas bonita de la Comunidad Valenciana
+                </p>
+                <p class="parrafop2">
+                    Ciudad: <input type="text" id="ciudad" onblur="funcion_si()">
+
+                </p>
+
+            </div>
+            <footer style="background-color: white;">
+                Web desarrollada por Juan Manuel Montesinos
+            </footer>
+</body>
+</html>
